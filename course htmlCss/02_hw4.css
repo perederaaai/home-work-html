@@ -1,0 +1,35 @@
+.container{
+    font-size: 25px;
+}
+.main-block{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    position: fixed;
+    right: 200px;
+    bottom: 60px;
+    background: white;
+    border: black 1px solid;
+}
+.red-block, .green-block, .yellow-block{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    z-index: 100;
+    border: black 1px solid;
+}
+.red-block{
+    background: red;
+    top: 15px;
+    left: 15px;
+}
+.green-block{
+    background: green;
+    top: 45px;
+    left: 45px;
+}
+.yellow-block{
+    background: yellow;
+    top: 75px;
+    left: 75px;
+}

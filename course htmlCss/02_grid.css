@@ -1,0 +1,30 @@
+.wrapper{
+    display: grid;
+    width: 900px;
+    height: 450px;
+    background: grey;
+}
+
+.test{
+    width: 60px;
+    height: 70px;
+}
+.one{
+    background: yellow;
+}
+
+.two{
+    background: white;
+}
+.three{
+    background: green;
+}
+.four{
+    background: white;
+}
+.five{
+    background: red;
+}
+.six{
+    background: burlywood;
+}

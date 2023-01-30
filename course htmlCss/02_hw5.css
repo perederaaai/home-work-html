@@ -1,0 +1,33 @@
+body{
+    margin: 8px;
+    font-size: 22px;
+}
+.header{
+    background: grey;
+    display: flex;
+}
+ul{
+    display: block;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 10px;
+
+}
+
+.with-btn{
+    position: relative;
+}
+.hidden-btn{
+    position: absolute;
+    width: 100px;
+    list-style: none;
+    background: green;
+}
+.with-btn > ul{
+    display: none;
+}
+.with-btn:hover > ul{
+    display: block;
+}

@@ -1,0 +1,112 @@
+.container{
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+    max-width: 1050px;
+    padding: ;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.header{
+    background: rgba(40,40,40,0.88);
+    display: flex;
+    color: white;
+    gap: 40px;
+    min-height: 40px;
+    padding: 0px 15px;
+}
+
+.btn-header{
+    height: 40px;
+    cursor: pointer;
+    min-width: 110px;
+    min-height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-header:hover{
+    background: rgba(14,14,14,0.88);
+    border: gray 03px solid;
+    box-sizing: border-box;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.sidebar{
+    width: 30%;
+}
+
+.side-list{
+    min-height: 40px;
+    border: grey 1px solid;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+    cursor: pointer;
+}
+
+.side-list:hover{
+    padding-left: 30px;
+    background: gray;
+}
+.main{
+    width: 70%;
+    margin-left: 2rem;
+}
+.product{
+    display: flex;
+    justify-content: center;
+    border: grey 1px solid;
+}
+
+.product img{
+    padding: 20px 0px;
+}
+.product-info{
+    margin: 1rem;
+}
+.footer{
+    background: rgba(117,117,117,0.88);
+    display: flex;
+    gap: 40px;
+    min-height: 40px;
+    padding:0px 15px;
+    justify-content: space-between;
+}
+
+.footer-2{
+    display: flex;
+}
+.btn-footer{
+    height: 40px;
+    cursor: pointer;
+    min-width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-footer:hover {
+    background: rgba(203,203,203,0.88);
+    border: gray 03px solid;
+    box-sizing: border-box;
+}
+
+.copywriter{
+    min-width: 110px;
+    display: flex;
+    align-items: center;
+}

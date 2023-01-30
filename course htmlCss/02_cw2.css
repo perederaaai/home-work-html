@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+}
+ul,p{
+    text-align: left;
+}
+img{
+    width: 250px;
+}
