@@ -1,0 +1,140 @@
+.container{
+    margin: 5px auto;
+    font-size: 25px;
+    list-style: none;
+    max-width: 1200px;
+}
+.header{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background: rgba(83,203,56,0.88);
+    height: 60px;
+    padding-left: 15px;
+    gap: 60px;
+}
+.header > a{
+    color: black;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    display: none;
+}
+.action{
+    display: flex;
+}
+.hidden-btn{
+    position: absolute;
+    width: 100px;
+    list-style: none;
+    cursor: pointer;
+}
+.action-btn:focus-within > ul{
+    display: block;
+}
+.action{
+    font-size: 18px;
+}
+.page-wrap{
+    display: flex;
+}
+.main{
+    width: 40%;
+    margin: 30px 20px;
+}
+.point{
+    display: flex;
+    justify-content: space-between;
+    max-height: 40px;
+    align-items: center;
+    margin: 20px 0px;
+}
+span{
+    color: red;
+    align-items: start;
+}
+.input{
+    width: 54%;
+    height: 100%;
+    padding: 11px 5px;
+    font-size: 16px;
+}
+.address{
+    display: block;
+    align-self: flex-start;
+    resize: none;
+}
+.select{
+    border: black 1px solid;
+    font-size: 18px;
+    width: 57%;
+    padding: 11px 5px;
+}
+.num{
+    justify-content: flex-start;
+    gap: 76px;
+}
+.number{
+    width: 30%;
+}
+.website{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    position: relative;
+    gap: 11px;
+    width: 58%;
+    align-self: flex-start;
+}
+.link{
+    width: 65%;
+}
+.website > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sidebar{
+    display: flex;
+    width: 60%;
+    margin: 30px 20px;
+}
+.question{
+    width: 60%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.radio{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+.answer{
+    width: 40%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer{
+    background: rgba(197,203,199,0.88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 60px;
+    margin: 10px 0px;
+}
+button{
+    background: rgba(133,203,115,0.88);
+    height: 80%;
+    width: 140px;
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
